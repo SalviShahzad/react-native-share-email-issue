@@ -96,7 +96,7 @@ export default class Main extends Component {
                                 }));
                             }, 300);
                         }}>Google +</Button>
-                    <Button iconSrc={{ uri: EMAIL_ICON }}
+                    <Button iconSrc={{ uri: EMAIL_ICON }}    //This button is clicked for email
                         onPress={() => {
                             this.onCancel();
                             setTimeout(() => {
